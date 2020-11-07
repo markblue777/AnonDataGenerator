@@ -1,0 +1,33 @@
+{
+  "RowCount": 10,
+  "ColumnDefinitions": [
+    {
+      "ColumnName": "Name",
+      "DataType": "FirstName | LastName",
+      "Range": "",
+      "IsAlphanumeric": false,
+      "IncludeBadFormat": false
+    },
+    {
+      "ColumnName": "FirstName",
+      "DataType": "FirstName",
+      "Range": "",
+      "IsAlphanumeric": false,
+      "IncludeBadFormat": false
+    },
+    {
+      "ColumnName": "HouseNumber",
+      "DataType": "HouseNumber",
+      "Range": "0-1000",
+      "IsAlphanumeric": true,
+      "IncludeBadFormat": false
+    },
+    {
+      "ColumnName": "",
+      "DataType": "",
+      "Range": "",
+      "IsAlphanumeric": false,
+      "IncludeBadFormat": false
+    }
+  ]
+}
