@@ -35,3 +35,17 @@ Freephone					|		08081 570000 to 570999
 Premium rate services		|		0909 8790000 to 8790999
 UK-wide						|		03069 990000 to 990999
 
+
+
+
+-----------------------------------------------------------------------------
+--------------------------- Column Definition Design ------------------------
+-----------------------------------------------------------------------------
+{
+	"ColumnName": "",
+	"DataType": "",
+	"Range": "",
+	"IsAlphanumeric": false,
+	"IncludeBadFormat": false,
+	"IsNullable": false
+}

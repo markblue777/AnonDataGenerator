@@ -6,6 +6,7 @@ namespace AnonDataGenerator.Entities
 {
     public enum DataTypes
     {
+        Name,
         FirstName,
         LastName,
         HouseNumber,
@@ -19,6 +20,7 @@ namespace AnonDataGenerator.Entities
         LandLine,
         Mobile,
         Fax,
-        DateTime
+        DateTime,
+        UUID
     }
 }

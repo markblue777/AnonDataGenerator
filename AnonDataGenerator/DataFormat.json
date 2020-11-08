@@ -3,31 +3,35 @@
   "ColumnDefinitions": [
     {
       "ColumnName": "Name",
-      "DataType": "FirstName | LastName",
+      "DataType": "Name",
       "Range": "",
       "IsAlphanumeric": false,
-      "IncludeBadFormat": false
+      "IncludeBadFormat": false,
+      "IsNullable":  false
     },
     {
       "ColumnName": "FirstName",
       "DataType": "FirstName",
       "Range": "",
       "IsAlphanumeric": false,
-      "IncludeBadFormat": false
+      "IncludeBadFormat": false,
+      "IsNullable": false
     },
     {
       "ColumnName": "HouseNumber",
       "DataType": "HouseNumber",
       "Range": "0-1000",
       "IsAlphanumeric": true,
-      "IncludeBadFormat": false
+      "IncludeBadFormat": false,
+      "IsNullable": false
     },
     {
-      "ColumnName": "",
-      "DataType": "",
+      "ColumnName": "Guid",
+      "DataType": "UUID",
       "Range": "",
-      "IsAlphanumeric": false,
-      "IncludeBadFormat": false
+      "IsAlphanumeric": true,
+      "IncludeBadFormat": false,
+      "IsNullable": false
     }
   ]
 }

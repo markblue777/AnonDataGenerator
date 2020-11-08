@@ -2,7 +2,7 @@
   "DataFormatPath": "DataFormat.json" ,
   "CSVPassThrough": true,
   "SQLPassThrough": false,
-  "CSVOutput": "C:\\Temp",
+  "CSVOutput": "C:\\Temp\\",
   "Connection": {
     "PrimarySQL": "",
     "SecondarySQL": ""
